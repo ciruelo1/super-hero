@@ -1,0 +1,164 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+header {
+	align-items: center;
+	background-color: #525050 !important;
+}
+
+li {
+	margin-top: 15px;
+}
+
+.message, .defaultPaper {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+h3 {
+	display: inline-block;
+	color: orange;
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 150px;
+}
+
+h4 {
+	display: inline-block;
+	color: rgb(0, 107, 179);
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	width: 120px;
+}
+
+.buttonBack, .loading {
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+}
+
+.toolbar{
+	background-image: url(../img/banner.jpg);
+	background-size: 100% 100% ;
+  	background-repeat:no-repeat;
+	background-size: cover;
+	height: 274px;
+	top: 20px;
+}
+
+.buscador{
+	width: 100%;
+	height: 80px;
+	display: inline-block;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#character_name {
+
+}
+
+.iconbutton {
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	left: 8px;
+	width: 50px;
+	height: 50px;
+}
+
+.sugerencias {
+	display: inline-flex;
+	height: 50px;
+	width: 800px;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+
+ul.opciones {
+	display: inline-flex;
+	justify-content: center;
+}
+
+ul.opciones li{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-style: italic;
+}
+
+.title-img {
+	display: inline-block;
+	height: auto;
+	width: 200px;
+	margin: 0%;
+	text-align: center;
+}
+
+.principal-img {
+	width: 190px;
+	height: 190px;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 0%;
+}
+
+.character-container {
+	padding-left: 20px;
+	width: 100%;
+}
+
+ul.info {
+	display: inline-block;
+	padding: 15px;
+	width: auto;
+	max-width: 400px;
+	height: auto;
+	margin-top: 0%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0%;
+}
+
+li {
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+ul.conexiones {
+	display: inline-block;
+	padding: 15px;
+	width: auto;
+	height: auto;
+	margin-top: 0%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0%;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
